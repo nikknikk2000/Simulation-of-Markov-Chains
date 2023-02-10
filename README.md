@@ -1,6 +1,6 @@
 Repositoryinhalt:
 
-1) ehrenfest.py: eine Simulation des Ehrenfest-Difussionsmodell, siehe
+1) ehrenfest1.py: eine Simulation des Ehrenfest-Difussionsmodell, siehe
    https://de.wikipedia.org/wiki/Ehrenfest-Modell
    
 2) markovmusic.rb: die Markovkette (X_n) aus Beispiel 3.5 wird in Sonic Pi implementiert. Es gilt X_0=3 Jedem Zustand wird ein Ton zugeordnet, die erzeugte Tonfolge wird   zusammen mit einer Hintergrundmusik in Dauerschleife abgespielt.
@@ -12,7 +12,7 @@ Repositoryinhalt:
 
 5) markovmusicexample1.wav: Beispielaudio, dass mit dem Programm markovmusic.rb generiert wurde.
    
-6) chessrw.py: Es werden ein weißer und ein schwarzer Springer simuliert, die auf den Feldern A8 bzw. H1 stehen. Weiß ist zuerst am Zug. Die Springer ziehen gemäß den 
+6) chessrw1.py: Es werden ein weißer und ein schwarzer Springer simuliert, die auf den Feldern A8 bzw. H1 stehen. Weiß ist zuerst am Zug. Die Springer ziehen gemäß den 
    gängigen Schachregeln. Das Spiel endet, wenn ein Springer den anderen geschlagen hat. 
    
    Wie werden die Züge bestimmt?
@@ -34,5 +34,5 @@ Repositoryinhalt:
 
    Hierbei handelt es sich um ein Beispiel für independent coupling.
 
-   Das Programm chessrw.py simuliert das beschriebene Spiel und erstellt eine Animation,
+   Das Programm chessrw1.py simuliert das beschriebene Spiel und erstellt eine Animation,
    die unter dem Dateinamen chessSim.gif gespeichert wird.
