@@ -8,11 +8,11 @@ Repositoryinhalt:
                   Kammer befinden. Es wird davon ausgegangen, dass die Übergangswahrscheinlich-
                   keiten wie folgt gegeben sind.X_n gibt an, wie viele Kugeln sich zum Zeitpunkt
                   n in der linken Kammer befinden.
-                      P(X_(n+1)=1|X_n=0)=1
+                      {P(X_(n+1)=1|X_n=0)=1
                       P(X_(n+1)=N-1|X_n=N)=1
                       P(X_(n+1)=X_n-1|X_n=n)=i/N
-                      P(X_(n+1)=X_n+1|X_n=n)=(N-i)/N  
-                  Quelle: [14]
+                      P(X_(n+1)=X_n+1|X_n=n)=(N-i)/N}  
+                  
                   
                   Es wird untersucht, wie
                   
