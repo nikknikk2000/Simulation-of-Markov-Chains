@@ -8,20 +8,12 @@ Repositoryinhalt:
                   Kammer befinden. Es wird davon ausgegangen, dass die Übergangswahrscheinlich-
                   keiten wie folgt gegeben sind.X_n gibt an, wie viele Kugeln sich zum Zeitpunkt
                   n in der linken Kammer befinden.
-                      {P(X_(n+1)=1|X_n=0)=1
+                      P(X_(n+1)=1|X_n=0)=1
                       P(X_(n+1)=N-1|X_n=N)=1
                       P(X_(n+1)=X_n-1|X_n=n)=i/N
-                      P(X_(n+1)=X_n+1|X_n=n)=(N-i)/N}  
+                      P(X_(n+1)=X_n+1|X_n=n)=(N-i)/N 
                   
-                  
-                  Es wird untersucht, wie
-                  
-                  Es wird untersucht, wie viele Kugeln sich zum jeweiligen Zeitpunkt in der linken
-                  Kammer befinden.
-                  Das Programm simuliert die Markovkette und stellt anschließend graphisch dar, 
-                  wie viele Kugeln sich zum Zeitpunkt n in der linken Kammer befinden.
-                  Das Programm wird mit N=10, i=5 aufgerufen und es werden 75 Schritte simuliert.
-   
+              
 2) markovmusic.rb: die Markovkette (X_n) aus Beispiel 3.5 wird in Sonic Pi implementiert. Es gilt X_0=3 Jedem Zustand wird ein Ton zugeordnet, die erzeugte Tonfolge wird   zusammen mit einer Hintergrundmusik in Dauerschleife abgespielt.
    
 3) markovcouplingmusicrb: es werden zwei unabhängige Markovketten (X_n) und (Y_n) in Sonic Pi bis zum Couplingzeitpunkt simuliert. (X_n) und (Y_n) besitzen als              Übergangsmatrix beide die Übergangsmatrix aus Beispiel 3.5 . Es gilt X_0=1 und Y_0=4. Es wird wiederum jedem Zustand ein Ton zugeordnet. Die Realisierungen von (X_n)      und (Y_n) werden 
