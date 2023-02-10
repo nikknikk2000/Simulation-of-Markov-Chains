@@ -12,6 +12,7 @@ Repositoryinhalt:
                       P(X_(n+1)=N-1|X_n=N)=1
                       P(X_(n+1)=X_n-1|X_n=n)=i/N
                       P(X_(n+1)=X_n+1|X_n=n)=(N-i)/N 
+                  
                   Es wird untersucht,
                   
               
