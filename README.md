@@ -11,8 +11,7 @@ Repositoryinhalt:
                       P(X_(n+1)=1|X_n=0)=1
                       P(X_(n+1)=N-1|X_n=N)=1
                       P(X_(n+1)=X_n-1|X_n=n)=i/N
-                      P(X_(n+1)=X_n+1|X_n=n)=(N-i)/N
-                      
+                      P(X_(n+1)=X_n+1|X_n=n)=(N-i)/N  
                   Quelle: [14]    
                   
                   Es wird untersucht, wie viele Kugeln sich zum jeweiligen Zeitpunkt in der linken
